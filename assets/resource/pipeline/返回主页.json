@@ -1,0 +1,217 @@
+{
+    "$__mpe_config_返回主页": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\返回主页.json",
+            "lastSyncTime": 1789982545251,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": 338,
+                "y": -51,
+                "zoom": 0.61
+            },
+            "filename": "返回主页",
+            "version": "v1.10.1"
+        }
+    },
+    "返回主页-检测主页": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "next": [
+            "返回主页-结束"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": 895
+            }
+        }
+    },
+    "返回主页-结束": {
+        "action": {
+            "type": "StopTask"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 753,
+                "y": 895
+            }
+        }
+    },
+    "点击返回主页图标": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    0,
+                    1158,
+                    121,
+                    122
+                ],
+                "template": [
+                    "template_1789146253508.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 1000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": 12
+            }
+        }
+    },
+    "返回主页": {
+        "focus": {
+            "Node.Action.Starting": "正在返回主页"
+        },
+        "next": [
+            "返回主页-检测主页",
+            "[JumpBack]点击任意处继续",
+            "[JumpBack]点击返回主页图标",
+            "[JumpBack]点击返回图标",
+            "[JumpBack]点击叉叉",
+            "[JumpBack]新建节点123"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 12,
+                "y": 628
+            }
+        }
+    },
+    "点击返回图标": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    0,
+                    1170,
+                    139,
+                    109
+                ],
+                "template": [
+                    "template_1789146936732.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 1000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": 1140
+            }
+        }
+    },
+    "点击任意处继续": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    281,
+                    920,
+                    167,
+                    318
+                ],
+                "expected": [
+                    "点击任意处继续"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 1000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": 327
+            }
+        }
+    },
+    "点击叉叉": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    0,
+                    902,
+                    127,
+                    377
+                ],
+                "template": [
+                    "template_1789152248688.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 1000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": 586
+            }
+        }
+    },
+    "新建节点123": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    131,
+                    1060,
+                    151,
+                    44
+                ],
+                "expected": [
+                    "退出游戏"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 1000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 380,
+                "y": -257
+            }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "$__mpe_config_祈祷": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\祈祷.json",
+            "lastSyncTime": 1789982637548,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": -251,
+                "y": 126,
+                "zoom": 0.75
+            },
+            "filename": "祈祷",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_祈祷": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1542,
+                "y": 334
+            }
+        }
+    },
+    "祈祷": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    698,
+                    800,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        145,
+                        800,
+                        1,
+                        1
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "新建节点117"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -101,
+                "y": 177
+            }
+        }
+    },
+    "新建节点117": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    378,
+                    1020,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "新建节点118"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 207,
+                "y": 209
+            }
+        }
+    },
+    "新建节点118": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    138,
+                    444,
+                    66,
+                    36
+                ],
+                "expected": [
+                    "教堂"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target_offset": [
+                    0,
+                    -80,
+                    0,
+                    0
+                ]
+            }
+        },
+        "next": [
+            "新建节点119"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 531,
+                "y": 157
+            }
+        }
+    },
+    "新建节点119": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    144,
+                    517,
+                    163,
+                    155
+                ],
+                "template": [
+                    "template_1789441275293.png"
+                ],
+                "green_mask": true
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点120",
+            "新建节点120_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 818,
+                "y": 160
+            }
+        }
+    },
+    "新建节点120": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    297,
+                    1094,
+                    128,
+                    35
+                ],
+                "expected": [
+                    "点击祈祷"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1165,
+                "y": 224
+            }
+        }
+    },
+    "新建节点120_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    297,
+                    1094,
+                    128,
+                    35
+                ],
+                "expected": [
+                    "今日已祈祷"
+                ]
+            }
+        },
+        "focus": {
+            "Node.Action.Starting": "今日已祈祷"
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1165,
+                "y": 461
+            }
+        }
+    },
+    "$__mpe_sticker_便签_祈祷": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1176,
+                "y": 47
+            },
+            "content": "这个位置可能优化为直接点击",
+            "color": "yellow",
+            "width": 200,
+            "height": 160
+        }
+    }
+}

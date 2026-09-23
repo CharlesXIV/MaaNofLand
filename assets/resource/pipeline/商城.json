@@ -1,0 +1,281 @@
+{
+    "$__mpe_config_商城": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\商城.json",
+            "lastSyncTime": 1789983549856,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": -438,
+                "y": 31,
+                "zoom": 0.88
+            },
+            "filename": "商城",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_商城": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1977,
+                "y": 437
+            }
+        }
+    },
+    "新建节点130_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    320,
+                    1124,
+                    79,
+                    44
+                ],
+                "expected": [
+                    "今日特价"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点128"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 773,
+                "y": 73
+            }
+        }
+    },
+    "商城": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    635,
+                    332,
+                    77,
+                    38
+                ],
+                "expected": [
+                    "商城"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "商城-礼包"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 101,
+                "y": 80
+            }
+        }
+    },
+    "商城-礼包": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    378,
+                    1197,
+                    95,
+                    44
+                ],
+                "expected": [
+                    "礼包"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点130_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 485,
+                "y": 73
+            }
+        }
+    },
+    "新建节点128": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    174,
+                    374,
+                    66,
+                    96
+                ],
+                "expected": [
+                    "免费"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点129"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1065,
+                "y": 72
+            }
+        }
+    },
+    "新建节点129": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    354,
+                    770,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "新建节点131"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1355,
+                "y": 80
+            }
+        }
+    },
+    "新建节点130": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    437,
+                    1130,
+                    79,
+                    37
+                ],
+                "expected": [
+                    "每周大礼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点128_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 751,
+                "y": 392
+            }
+        }
+    },
+    "新建节点131": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    354,
+                    899,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "新建节点130"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1653,
+                "y": 79
+            }
+        }
+    },
+    "新建节点128_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    174,
+                    374,
+                    66,
+                    96
+                ],
+                "expected": [
+                    "免费"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点129_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1065,
+                "y": 402
+            }
+        }
+    },
+    "新建节点129_副本1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    354,
+                    770,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "新建节点131_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1366,
+                "y": 410
+            }
+        }
+    },
+    "新建节点131_副本1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    354,
+                    899,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1653,
+                "y": 392
+            }
+        }
+    }
+}

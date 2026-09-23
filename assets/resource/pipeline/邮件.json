@@ -1,0 +1,172 @@
+{
+    "$__mpe_config_邮件": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\邮件.json",
+            "lastSyncTime": 1790043042529,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": 158,
+                "y": -23,
+                "zoom": 1.08
+            },
+            "filename": "邮件",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_邮件": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1295,
+                "y": 252
+            },
+            "extra_positions": [
+                {
+                    "x": 710,
+                    "y": 510
+                }
+            ]
+        }
+    },
+    "邮件": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    698,
+                    800,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        145,
+                        800,
+                        1,
+                        1
+                    ]
+                ]
+            }
+        },
+        "post_delay": 500,
+        "timeout": 3000,
+        "next": [
+            "邮件-点击"
+        ],
+        "on_error": [
+            "无邮件"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 41,
+                "y": 164
+            }
+        }
+    },
+    "邮件-点击": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    0,
+                    656,
+                    123,
+                    302
+                ],
+                "expected": [
+                    "邮件"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "邮件-领取"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 383,
+                "y": 206
+            }
+        }
+    },
+    "邮件-领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    483,
+                    1199,
+                    154,
+                    49
+                ],
+                "expected": [
+                    "一键领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "邮件-领取2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 710,
+                "y": 230
+            }
+        }
+    },
+    "邮件-领取2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    360,
+                    1001,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 998,
+                "y": 243
+            }
+        }
+    },
+    "无邮件": {
+        "focus": {
+            "Node.Action.Starting": "无邮件"
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 391,
+                "y": 486
+            }
+        }
+    }
+}

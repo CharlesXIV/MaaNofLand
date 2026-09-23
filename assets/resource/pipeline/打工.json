@@ -1,0 +1,184 @@
+{
+    "$__mpe_config_打工": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\打工.json",
+            "lastSyncTime": 1789981710368,
+            "savedViewport": {
+                "x": -728,
+                "y": 48,
+                "zoom": 0.99
+            },
+            "filename": "打工",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_打工": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1467,
+                "y": 281
+            }
+        }
+    },
+    "打工": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    698,
+                    800,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        145,
+                        800,
+                        1,
+                        1
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "打工-广场"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -101,
+                "y": 177
+            }
+        }
+    },
+    "打工-广场": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    378,
+                    1020,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "打工-裁缝铺"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 207,
+                "y": 209
+            }
+        }
+    },
+    "打工-裁缝铺": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    567,
+                    927,
+                    109,
+                    37
+                ],
+                "expected": [
+                    "裁缝铺"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target_offset": [
+                    0,
+                    -80,
+                    0,
+                    0
+                ]
+            }
+        },
+        "next": [
+            "打工-点击"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 531,
+                "y": 157
+            }
+        }
+    },
+    "打工-点击": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    453,
+                    683,
+                    123,
+                    122
+                ],
+                "template": [
+                    "template_1789442547744.png"
+                ],
+                "green_mask": true
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "打工-一键打工"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 818,
+                "y": 160
+            }
+        }
+    },
+    "打工-一键打工": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    432,
+                    983,
+                    170,
+                    53
+                ],
+                "expected": [
+                    "一键打工"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1165,
+                "y": 224
+            }
+        }
+    }
+}

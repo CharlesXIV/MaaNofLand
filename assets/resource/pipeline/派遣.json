@@ -1,0 +1,215 @@
+{
+    "$__mpe_config_派遣": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\派遣.json",
+            "lastSyncTime": 1789984436161,
+            "savedViewport": {
+                "x": -164,
+                "y": -20,
+                "zoom": 0.86
+            },
+            "filename": "派遣",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_派遣": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1587,
+                "y": 185
+            },
+            "extra_positions": [
+                {
+                    "x": 972,
+                    "y": 475
+                }
+            ]
+        }
+    },
+    "点击派遣页面": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    3,
+                    604,
+                    162,
+                    352
+                ],
+                "expected": [
+                    "派遣"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": 3000,
+        "next": [
+            "快捷收获"
+        ],
+        "on_error": [
+            "派遣未完成"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 126
+            }
+        }
+    },
+    "派遣": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    698,
+                    800,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        145,
+                        800,
+                        1,
+                        1
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "点击派遣页面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 12,
+                "y": 126
+            }
+        }
+    },
+    "快捷收获": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    581,
+                    1211,
+                    129,
+                    68
+                ],
+                "expected": [
+                    "快捷收获"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    650,
+                    1221,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "快捷收获-1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 649,
+                "y": 126
+            }
+        }
+    },
+    "快捷收获-1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    650,
+                    1221,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "快捷采集"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 972,
+                "y": 126
+            }
+        }
+    },
+    "快捷采集": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    581,
+                    1211,
+                    129,
+                    68
+                ],
+                "expected": [
+                    "快捷采集"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    650,
+                    1221,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1292,
+                "y": 126
+            }
+        }
+    },
+    "派遣未完成": {
+        "focus": {
+            "Node.Action.Starting": "派遣未结束"
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 649,
+                "y": 452
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "$__mpe_config_好友充能": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\好友充能.json",
+            "lastSyncTime": 1789982298755,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": 253,
+                "y": 275,
+                "zoom": 0.49
+            },
+            "filename": "好友充能",
+            "version": "v1.10.1"
+        }
+    },
+    "$__mpe_external_返回主页_好友充能": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1134,
+                "y": 69
+            }
+        }
+    },
+    "社交": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    636,
+                    120,
+                    74,
+                    58
+                ],
+                "expected": [
+                    "社交"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "摸水晶球"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 12,
+                "y": 12
+            }
+        }
+    },
+    "摸水晶球": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    633,
+                    1205,
+                    61,
+                    33
+                ],
+                "expected": [
+                    "好友"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    191,
+                    959,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "点击好友"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 286,
+                "y": 12
+            }
+        }
+    },
+    "点击好友": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    666,
+                    1220,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "一键充能"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 561,
+                "y": 12
+            }
+        }
+    },
+    "一键充能": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    623,
+                    1056,
+                    95,
+                    39
+                ],
+                "expected": [
+                    "一键充能"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    675,
+                    1041,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "返回主页"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 835,
+                "y": 12
+            }
+        }
+    }
+}

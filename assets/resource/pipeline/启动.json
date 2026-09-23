@@ -1,0 +1,193 @@
+{
+    "$__mpe_config_启动": {
+        "$__mpe_code": {
+            "prefix": "",
+            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\启动.json",
+            "lastSyncTime": 1789981693801,
+            "coordinateMode": "absolute-v1",
+            "savedViewport": {
+                "x": 315,
+                "y": -163,
+                "zoom": 0.76
+            },
+            "filename": "启动",
+            "version": "v1.10.1"
+        }
+    },
+    "启动游戏": {
+        "action": {
+            "type": "StartApp",
+            "param": {
+                "package": "com.gno.nofland.dyd"
+            }
+        },
+        "timeout": -1,
+        "next": [
+            "启动-检测主页",
+            "[JumpBack]检查游戏更新",
+            "[JumpBack]关闭公告",
+            "[JumpBack]点击继续游戏",
+            "[JumpBack]点击开始游戏"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 12,
+                "y": 555
+            }
+        }
+    },
+    "点击开始游戏": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    213,
+                    1038,
+                    307,
+                    118
+                ],
+                "expected": [
+                    "开始游戏"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    222,
+                    1054,
+                    273,
+                    93
+                ]
+            }
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 353,
+                "y": 1151
+            }
+        }
+    },
+    "检查游戏更新": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    240,
+                    390,
+                    246,
+                    68
+                ],
+                "expected": [
+                    "游戏更新"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    486,
+                    672,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 353,
+                "y": 538
+            }
+        }
+    },
+    "关闭公告": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    276,
+                    1022,
+                    168,
+                    46
+                ],
+                "expected": [
+                    "我知道了"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 353,
+                "y": 761
+            }
+        }
+    },
+    "启动-检测主页": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 353,
+                "y": 338
+            }
+        }
+    },
+    "点击继续游戏": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    270,
+                    623,
+                    176,
+                    65
+                ],
+                "expected": [
+                    "继续游戏"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 353,
+                "y": 960
+            }
+        }
+    }
+}
