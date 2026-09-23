@@ -5,7 +5,10 @@
 
 <div align="center">
 
-# MaaPracticeBoilerplate
+# MaaNofLand
+
+基于全新架构的 诺弗兰物语 小助手。图像技术 + 模拟控制，解放双手！  
+由 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 强力驱动！
 
 </div>
 
@@ -14,9 +17,19 @@
 > **MaaFramework** 是基于图像识别技术、运用 [MAA](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 开发经验去芜存菁、完全重写的新一代自动化黑盒测试框架。
 > 低代码的同时仍拥有高扩展性，旨在打造一款丰富、领先、且实用的开源库，助力开发者轻松编写出更好的黑盒测试程序，并推广普及。
 
-## 即刻开始
+## 支持功能
 
-**请不要直接克隆本仓库！你应该通过模板创建自己的项目！**  
+- [x] 每日签到
+- 派遣
+- 每日祈祷
+- 一键充能
+- 乐园领取放置
+- 领取邮件
+- 领取商城免费礼包
+- 乐园一键放置
+- 一键打工
+
+## 即刻开始
 
 请阅读 [如何开发](./docs/zh_cn/develop/how_to_develop.md)。
 
