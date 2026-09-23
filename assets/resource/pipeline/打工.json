@@ -1,27 +1,4 @@
 {
-    "$__mpe_config_打工": {
-        "$__mpe_code": {
-            "prefix": "",
-            "coordinateMode": "absolute-v1",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\打工.json",
-            "lastSyncTime": 1789981710368,
-            "savedViewport": {
-                "x": -728,
-                "y": 48,
-                "zoom": 0.99
-            },
-            "filename": "打工",
-            "version": "v1.10.1"
-        }
-    },
-    "$__mpe_external_返回主页_打工": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1467,
-                "y": 281
-            }
-        }
-    },
     "打工": {
         "recognition": {
             "type": "OCR",
@@ -58,13 +35,7 @@
         },
         "next": [
             "打工-广场"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -101,
-                "y": 177
-            }
-        }
+        ]
     },
     "打工-广场": {
         "action": {
@@ -80,13 +51,7 @@
         },
         "next": [
             "打工-裁缝铺"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 207,
-                "y": 209
-            }
-        }
+        ]
     },
     "打工-裁缝铺": {
         "recognition": {
@@ -116,13 +81,7 @@
         },
         "next": [
             "打工-点击"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 531,
-                "y": 157
-            }
-        }
+        ]
     },
     "打工-点击": {
         "recognition": {
@@ -145,13 +104,7 @@
         },
         "next": [
             "打工-一键打工"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 818,
-                "y": 160
-            }
-        }
+        ]
     },
     "打工-一键打工": {
         "recognition": {
@@ -173,12 +126,6 @@
         },
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 1165,
-                "y": 224
-            }
-        }
+        ]
     }
 }

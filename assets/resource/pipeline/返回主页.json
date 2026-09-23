@@ -1,19 +1,4 @@
 {
-    "$__mpe_config_返回主页": {
-        "$__mpe_code": {
-            "prefix": "",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\返回主页.json",
-            "lastSyncTime": 1789982545251,
-            "coordinateMode": "absolute-v1",
-            "savedViewport": {
-                "x": 338,
-                "y": -51,
-                "zoom": 0.61
-            },
-            "filename": "返回主页",
-            "version": "v1.10.1"
-        }
-    },
     "返回主页-检测主页": {
         "recognition": {
             "type": "OCR",
@@ -31,23 +16,11 @@
         },
         "next": [
             "返回主页-结束"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": 895
-            }
-        }
+        ]
     },
     "返回主页-结束": {
         "action": {
             "type": "StopTask"
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 753,
-                "y": 895
-            }
         }
     },
     "点击返回主页图标": {
@@ -71,12 +44,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": 12
-            }
         }
     },
     "返回主页": {
@@ -90,13 +57,7 @@
             "[JumpBack]点击返回图标",
             "[JumpBack]点击叉叉",
             "[JumpBack]新建节点123"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 12,
-                "y": 628
-            }
-        }
+        ]
     },
     "点击返回图标": {
         "recognition": {
@@ -119,12 +80,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": 1140
-            }
         }
     },
     "点击任意处继续": {
@@ -148,12 +103,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": 327
-            }
         }
     },
     "点击叉叉": {
@@ -177,12 +126,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": 586
-            }
         }
     },
     "新建节点123": {
@@ -206,12 +149,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 380,
-                "y": -257
-            }
         }
     }
 }

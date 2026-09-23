@@ -1,19 +1,4 @@
 {
-    "$__mpe_config_启动": {
-        "$__mpe_code": {
-            "prefix": "",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\启动.json",
-            "lastSyncTime": 1789981693801,
-            "coordinateMode": "absolute-v1",
-            "savedViewport": {
-                "x": 315,
-                "y": -163,
-                "zoom": 0.76
-            },
-            "filename": "启动",
-            "version": "v1.10.1"
-        }
-    },
     "启动游戏": {
         "action": {
             "type": "StartApp",
@@ -28,13 +13,7 @@
             "[JumpBack]关闭公告",
             "[JumpBack]点击继续游戏",
             "[JumpBack]点击开始游戏"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 12,
-                "y": 555
-            }
-        }
+        ]
     },
     "点击开始游戏": {
         "recognition": {
@@ -65,12 +44,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 3000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 353,
-                "y": 1151
-            }
         }
     },
     "检查游戏更新": {
@@ -102,12 +75,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 3000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 353,
-                "y": 538
-            }
         }
     },
     "关闭公告": {
@@ -131,12 +98,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 3000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 353,
-                "y": 761
-            }
         }
     },
     "启动-检测主页": {
@@ -152,12 +113,6 @@
                 "expected": [
                     "影响力"
                 ]
-            }
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 353,
-                "y": 338
             }
         }
     },
@@ -182,12 +137,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 3000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 353,
-                "y": 960
-            }
         }
     }
 }

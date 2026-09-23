@@ -1,33 +1,4 @@
 {
-    "$__mpe_config_派遣": {
-        "$__mpe_code": {
-            "prefix": "",
-            "coordinateMode": "absolute-v1",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\派遣.json",
-            "lastSyncTime": 1789984436161,
-            "savedViewport": {
-                "x": -164,
-                "y": -20,
-                "zoom": 0.86
-            },
-            "filename": "派遣",
-            "version": "v1.10.1"
-        }
-    },
-    "$__mpe_external_返回主页_派遣": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1587,
-                "y": 185
-            },
-            "extra_positions": [
-                {
-                    "x": 972,
-                    "y": 475
-                }
-            ]
-        }
-    },
     "点击派遣页面": {
         "recognition": {
             "type": "OCR",
@@ -52,13 +23,7 @@
         ],
         "on_error": [
             "派遣未完成"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 332,
-                "y": 126
-            }
-        }
+        ]
     },
     "派遣": {
         "recognition": {
@@ -96,13 +61,7 @@
         },
         "next": [
             "点击派遣页面"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 12,
-                "y": 126
-            }
-        }
+        ]
     },
     "快捷收获": {
         "recognition": {
@@ -132,13 +91,7 @@
         },
         "next": [
             "快捷收获-1"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 649,
-                "y": 126
-            }
-        }
+        ]
     },
     "快捷收获-1": {
         "action": {
@@ -154,13 +107,7 @@
         },
         "next": [
             "快捷采集"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 972,
-                "y": 126
-            }
-        }
+        ]
     },
     "快捷采集": {
         "recognition": {
@@ -190,13 +137,7 @@
         },
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 1292,
-                "y": 126
-            }
-        }
+        ]
     },
     "派遣未完成": {
         "focus": {
@@ -204,12 +145,6 @@
         },
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 649,
-                "y": 452
-            }
-        }
+        ]
     }
 }

@@ -1,19 +1,4 @@
 {
-    "$__mpe_config_任务": {
-        "$__mpe_code": {
-            "prefix": "",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\任务.json",
-            "lastSyncTime": 1789981712853,
-            "coordinateMode": "absolute-v1",
-            "savedViewport": {
-                "x": 398,
-                "y": 191,
-                "zoom": 0.43
-            },
-            "filename": "任务",
-            "version": "v1.10.1"
-        }
-    },
     "任务-识别": {
         "recognition": {
             "type": "ColorMatch",
@@ -43,13 +28,7 @@
         "next": [
             "任务-周常",
             "通行证"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 460,
-                "y": 248
-            }
-        }
+        ]
     },
     "任务-周常": {
         "max_hit": 1,
@@ -72,25 +51,13 @@
         },
         "next": [
             "任务-2"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 825,
-                "y": 537
-            }
-        }
+        ]
     },
     "任务-2": {
         "next": [
             "[JumpBack]任务-领取",
             "任务-识别"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 110,
-                "y": 263
-            }
-        }
+        ]
     },
     "通行证": {
         "recognition": {
@@ -120,13 +87,7 @@
         },
         "next": [
             "通行证-领取"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 816,
-                "y": 248
-            }
-        }
+        ]
     },
     "通行证-领取": {
         "recognition": {
@@ -156,21 +117,7 @@
         },
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 1088,
-                "y": 248
-            }
-        }
-    },
-    "$__mpe_external_返回主页_任务": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1404,
-                "y": 289
-            }
-        }
+        ]
     },
     "任务": {
         "recognition": {
@@ -192,13 +139,7 @@
         },
         "next": [
             "任务-2"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -255,
-                "y": 236
-            }
-        }
+        ]
     },
     "任务-领取": {
         "recognition": {
@@ -233,12 +174,6 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 1000
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 460,
-                "y": -70
-            }
         }
     }
 }

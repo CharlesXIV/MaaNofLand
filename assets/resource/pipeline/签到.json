@@ -1,27 +1,4 @@
 {
-    "$__mpe_config_签到": {
-        "$__mpe_code": {
-            "prefix": "",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\签到.json",
-            "lastSyncTime": 1789983020469,
-            "coordinateMode": "absolute-v1",
-            "savedViewport": {
-                "x": 412,
-                "y": 562,
-                "zoom": 0.99
-            },
-            "filename": "签到",
-            "version": "v1.10.1"
-        }
-    },
-    "$__mpe_external_返回主页_签到": {
-        "$__mpe_code": {
-            "position": {
-                "x": 916,
-                "y": -356
-            }
-        }
-    },
     "打开签到页": {
         "recognition": {
             "type": "OCR",
@@ -51,13 +28,7 @@
         "next": [
             "点击签到",
             "[JumpBack]补签"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -480,
-                "y": -397
-            }
-        }
+        ]
     },
     "点击签到": {
         "recognition": {
@@ -79,13 +50,7 @@
         },
         "next": [
             "签到-1"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -179,
-                "y": -441
-            }
-        }
+        ]
     },
     "关闭签到页面": {
         "recognition": {
@@ -108,13 +73,7 @@
         },
         "next": [
             "结束签到"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 284,
-                "y": -160
-            }
-        }
+        ]
     },
     "签到-1": {
         "pre_delay": 500,
@@ -131,13 +90,7 @@
         },
         "next": [
             "结束签到"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 132,
-                "y": -429
-            }
-        }
+        ]
     },
     "补签": {
         "recognition": {
@@ -156,34 +109,16 @@
         },
         "next": [
             "关闭签到页面"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -156,
-                "y": -129
-            }
-        }
+        ]
     },
     "结束签到": {
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 646,
-                "y": -385
-            }
-        }
+        ]
     },
     "签到": {
         "next": [
             "打开签到页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -816,
-                "y": -451
-            }
-        }
+        ]
     }
 }

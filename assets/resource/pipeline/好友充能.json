@@ -1,27 +1,4 @@
 {
-    "$__mpe_config_好友充能": {
-        "$__mpe_code": {
-            "prefix": "",
-            "filePath": "D:\\MaaEngine\\MNL\\MaaNofLand\\assets\\resource\\pipeline\\好友充能.json",
-            "lastSyncTime": 1789982298755,
-            "coordinateMode": "absolute-v1",
-            "savedViewport": {
-                "x": 253,
-                "y": 275,
-                "zoom": 0.49
-            },
-            "filename": "好友充能",
-            "version": "v1.10.1"
-        }
-    },
-    "$__mpe_external_返回主页_好友充能": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1134,
-                "y": 69
-            }
-        }
-    },
     "社交": {
         "recognition": {
             "type": "OCR",
@@ -42,13 +19,7 @@
         },
         "next": [
             "摸水晶球"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 12,
-                "y": 12
-            }
-        }
+        ]
     },
     "摸水晶球": {
         "recognition": {
@@ -78,13 +49,7 @@
         },
         "next": [
             "点击好友"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 286,
-                "y": 12
-            }
-        }
+        ]
     },
     "点击好友": {
         "action": {
@@ -100,13 +65,7 @@
         },
         "next": [
             "一键充能"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 561,
-                "y": 12
-            }
-        }
+        ]
     },
     "一键充能": {
         "recognition": {
@@ -136,12 +95,6 @@
         },
         "next": [
             "返回主页"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 835,
-                "y": 12
-            }
-        }
+        ]
     }
 }
