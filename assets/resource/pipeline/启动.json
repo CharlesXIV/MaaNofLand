@@ -1,82 +1,4 @@
 {
-    "启动游戏": {
-        "action": {
-            "type": "StartApp",
-            "param": {
-                "package": "com.gno.nofland.dyd"
-            }
-        },
-        "timeout": -1,
-        "next": [
-            "启动-检测主页",
-            "[JumpBack]检查游戏更新",
-            "[JumpBack]关闭公告",
-            "[JumpBack]点击继续游戏",
-            "[JumpBack]点击开始游戏"
-        ]
-    },
-    "点击开始游戏": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    213,
-                    1038,
-                    307,
-                    118
-                ],
-                "expected": [
-                    "开始游戏"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    222,
-                    1054,
-                    273,
-                    93
-                ]
-            }
-        },
-        "post_wait_freezes": {
-            "time": 500,
-            "timeout": 3000
-        }
-    },
-    "检查游戏更新": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    240,
-                    390,
-                    246,
-                    68
-                ],
-                "expected": [
-                    "游戏更新"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    486,
-                    672,
-                    1,
-                    1
-                ]
-            }
-        },
-        "post_wait_freezes": {
-            "time": 500,
-            "timeout": 3000
-        }
-    },
     "关闭公告": {
         "recognition": {
             "type": "OCR",
@@ -116,6 +38,87 @@
             }
         }
     },
+    "启动游戏": {
+        "action": {
+            "type": "StartApp",
+            "param": {
+                "package": "com.gno.nofland.dyd"
+            }
+        },
+        "timeout": -1,
+        "next": [
+            "启动-检测主页",
+            "[JumpBack]检查游戏更新",
+            "[JumpBack]关闭公告",
+            "[JumpBack]点击继续游戏",
+            "[JumpBack]点击开始游戏"
+        ]
+    },
+    "检查游戏更新": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    240,
+                    390,
+                    246,
+                    68
+                ],
+                "expected": [
+                    "游戏更新"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    486,
+                    672,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        }
+    },
+    "点击开始游戏": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    213,
+                    1038,
+                    307,
+                    118
+                ],
+                "expected": [
+                    "开始游戏"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    222,
+                    1054,
+                    273,
+                    93
+                ]
+            }
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        },
+        "next": [
+            "新建节点7"
+        ]
+    },
     "点击继续游戏": {
         "recognition": {
             "type": "OCR",
@@ -133,6 +136,37 @@
         },
         "action": {
             "type": "Click"
+        },
+        "post_wait_freezes": {
+            "time": 500,
+            "timeout": 3000
+        }
+    },
+    "新建节点7": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    56,
+                    557,
+                    335,
+                    64
+                ],
+                "expected": [
+                    "token已过期,请重新登录"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    349,
+                    695,
+                    1,
+                    1
+                ]
+            }
         },
         "post_wait_freezes": {
             "time": 500,
