@@ -1,0 +1,143 @@
+{
+    "箱庭": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    10,
+                    121,
+                    47
+                ],
+                "expected": [
+                    "影响力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    595,
+                    855,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        114,
+                        846,
+                        1,
+                        1
+                    ]
+                ]
+            }
+        },
+        "next": [
+            "箱庭-点击"
+        ]
+    },
+    "箱庭-点击": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    24,
+                    585,
+                    85,
+                    65
+                ],
+                "expected": [
+                    "箱庭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "箱庭-领取"
+        ]
+    },
+    "箱庭-领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    576,
+                    1216,
+                    141,
+                    62
+                ],
+                "expected": [
+                    "键领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    650,
+                    1219,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "箱庭-clickeny"
+        ]
+    },
+    "箱庭-clickeny": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    363,
+                    1168,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "返回主页"
+        ]
+    },
+    "新建节点15": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    355,
+                    1209,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        355,
+                        496,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    450
+                ],
+                "duration": [
+                    400
+                ]
+            }
+        }
+    },
+    "新建节点16": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": ""
+            }
+        }
+    }
+}
