@@ -51,7 +51,8 @@
             "[JumpBack]检查游戏更新",
             "[JumpBack]关闭公告",
             "[JumpBack]点击继续游戏",
-            "[JumpBack]点击开始游戏"
+            "[JumpBack]点击开始游戏",
+            "[JumpBack]新建节点7"
         ]
     },
     "检查游戏更新": {
@@ -114,10 +115,7 @@
         "post_wait_freezes": {
             "time": 500,
             "timeout": 3000
-        },
-        "next": [
-            "新建节点7"
-        ]
+        }
     },
     "点击继续游戏": {
         "recognition": {
